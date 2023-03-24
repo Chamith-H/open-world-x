@@ -1,0 +1,35 @@
+.Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+    height: 65px;
+}
+
+.Header-Left {
+    display: flex;
+    align-items: center;
+}
+
+.Header-Left h4 {
+    color: rgb(0, 0, 0);
+}
+
+.Login {
+    background: #12121200;
+    border-style: none;
+    color: #00127a;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.Register {
+    padding-left: 40px;
+    padding-right: 40px;
+    background: #0059ff;
+    border-style: none;
+    color: #ffffff;
+    font-weight: 500;
+    border-radius: 4px;
+    font-size: 17px;
+}

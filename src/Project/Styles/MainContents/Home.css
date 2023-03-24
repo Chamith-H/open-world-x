@@ -1,0 +1,151 @@
+.Home {
+    background: #e4e4e4;
+}
+
+.Align-Home {
+    height: 100%;
+    width: 100%;
+    background-image: url("../../Assets/Home/Hero.jpg");
+    background-size: cover;
+}
+
+.Align-Hero { 
+    background-color: rgba(0, 0, 0, 0.692);
+    display: flex;
+    justify-content: center;
+}
+
+.Brand-Title {
+    height: 100%;
+    background: #ffff;
+}
+
+.Brand-Title h1 {
+    color: #000000;
+    font-size: 42px;
+}
+
+.Brand-Title span {
+    color: #0059ff;
+}
+
+.Brand-Title h6 {
+    color: #3a3a3a;
+    font-style: italic;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.Learn {
+    padding-left: 30px;
+    padding-right: 30px;
+    background: #0059ff;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #0059ff;
+    color: #ffffff;
+    font-weight: 500;
+    border-radius: 4px;
+    font-size: 17px;
+}
+
+.Guide {
+    padding-left: 30px;
+    padding-right: 30px;
+    background: #ffffff;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #0059ff;
+    color: #0059ff;
+    font-weight: 500;
+    border-radius: 4px;
+    font-size: 17px;
+}
+
+.Hero-Search form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.Hero-Search input {
+    width: 100%;
+    border-style: solid;
+    border-width: 1px;
+    height: 32px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.Search-Submit {
+    padding-left: 30px;
+    padding-right: 30px;
+    background: #0059ff;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #0059ff;
+    color: #ffffff;
+    font-weight: 500;
+    height: 32px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    font-size: 17px;
+}
+
+.Home-Slider {
+    height: 100%;
+    width: 100%;
+    background: #ffff;
+}
+
+.Our-Benefits {
+    display: flex;
+    justify-content: center;
+    margin-top: -80px;
+}
+
+.Our-Benefits img{
+    width: 80%;
+}
+
+.Single-Benefit {
+    background: #ffff;
+    box-shadow: 0px 15px 30px 0px #000000c5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Single-Benefit h6 {
+    color: black;
+}
+
+.Our-Categories {
+    display: flex;
+    justify-content: center;
+    background: #ffff;
+}
+
+.Single-Category {
+    box-shadow: 0px 10px 15px 0px #000000e1;
+}
+
+.Single-Category img {
+    width: 100%;
+}
+
+.Category-Title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.774);
+}
+
+.Category-Title h6 {
+    font-size: 17px;
+    color: #ffffff;
+    margin-bottom: 0px;
+}
