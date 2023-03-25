@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/open-world-x/static/css/main.cecea354.css",
+    "main.js": "/open-world-x/static/js/main.b2c2bba3.js",
+    "static/js/787.f34b3d0b.chunk.js": "/open-world-x/static/js/787.f34b3d0b.chunk.js",
+    "static/media/Education.jpg": "/open-world-x/static/media/Education.d0957b4b5f9aa40f96cb.jpg",
+    "static/media/Blog.jpg": "/open-world-x/static/media/Blog.b683d0fefd9268759cb8.jpg",
+    "static/media/Style.jpg": "/open-world-x/static/media/Style.c82a8f1bfaf4c20e2a53.jpg",
+    "static/media/Meet.png": "/open-world-x/static/media/Meet.e43190b46dc7169ca92c.png",
+    "static/media/Science.jpg": "/open-world-x/static/media/Science.a7831e8043f21da24f1d.jpg",
+    "static/media/HeroTop.png": "/open-world-x/static/media/HeroTop.b2690fcd53fca2f1e8f0.png",
+    "static/media/LeftBackground.png": "/open-world-x/static/media/LeftBackground.ec6f40b4eeb45a060c3e.png",
+    "static/media/Connect.png": "/open-world-x/static/media/Connect.278ebffa855e98ec84dd.png",
+    "static/media/Hero.jpeg": "/open-world-x/static/media/Hero.c5c56a405cfe57854a78.jpeg",
+    "static/media/Pay.png": "/open-world-x/static/media/Pay.99b1c2d236a636097f0f.png",
+    "static/media/bootstrap-icons.woff?": "/open-world-x/static/media/bootstrap-icons.6959d0d983ee318f8880.woff",
+    "static/media/bootstrap-icons.woff2?": "/open-world-x/static/media/bootstrap-icons.b2e5aab643c6f0fd2da6.woff2",
+    "static/media/Teach.png": "/open-world-x/static/media/Teach.c77caa2d41aeac936b87.png",
+    "static/media/BenefitBackground.png": "/open-world-x/static/media/BenefitBackground.59b79bc8557eeaf72ac9.png",
+    "index.html": "/open-world-x/index.html",
+    "main.cecea354.css.map": "/open-world-x/static/css/main.cecea354.css.map",
+    "main.b2c2bba3.js.map": "/open-world-x/static/js/main.b2c2bba3.js.map",
+    "787.f34b3d0b.chunk.js.map": "/open-world-x/static/js/787.f34b3d0b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cecea354.css",
+    "static/js/main.b2c2bba3.js"
+  ]
+}
