@@ -1,135 +1,240 @@
 .Home {
-    background: #e4e4e4;
+    
 }
 
 .Align-Home {
-    height: 100%;
+    position: relative;
+    height: 600px;
     width: 100%;
-    background-image: url("../../Assets/Home/Hero.jpg");
-    background-size: cover;
 }
 
-.Align-Hero { 
-    background-color: rgba(0, 0, 0, 0.692);
+.Hero-Left {
+    position: relative;
+    z-index: 2;
+    height: 100%;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+.Hero-Right {
+    position: relative;
+    z-index: 1;
+    height: 100%;
+    background: #0000002f;
+    border-top-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    box-shadow: 0px 0px 1px 100px #ffffff;
+}
+
+.Hero-Contents {
+    position: absolute;
+    z-index: 10;
+    top:0;
+    left:0;
+    right:0;
+    bottom: 70px;
     display: flex;
     justify-content: center;
 }
 
-.Brand-Title {
+.Hero-Top {
+    position: absolute;
+    z-index: 3;
+    top:0;
+    left:0;
+    right:0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+
+.Hero-Second {
+    position: absolute;
+    z-index: 2;
+    top:0;
+    left:0;
+    right:0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
+.Hero-Top img {
+    width: 340px;
+}
+
+.Hero-Second img {
+    width: 100%;
+    opacity: 0.3;
+}
+
+.Hero-Left-Contents {
+    position: relative;
     height: 100%;
-    background: #ffff;
 }
 
-.Brand-Title h1 {
+.Hero-Left-Contents h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
     color: #000000;
-    font-size: 42px;
 }
 
-.Brand-Title span {
-    color: #0059ff;
+.Hero-Left-Contents span {
+    color: #0059FF;
 }
 
-.Brand-Title h6 {
-    color: #3a3a3a;
-    font-style: italic;
-    font-size: 17px;
-    font-weight: 400;
-}
-
-.Learn {
-    padding-left: 30px;
-    padding-right: 30px;
-    background: #0059ff;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #0059ff;
-    color: #ffffff;
-    font-weight: 500;
-    border-radius: 4px;
-    font-size: 17px;
-}
-
-.Guide {
-    padding-left: 30px;
-    padding-right: 30px;
-    background: #ffffff;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #0059ff;
-    color: #0059ff;
-    font-weight: 500;
-    border-radius: 4px;
-    font-size: 17px;
-}
-
-.Hero-Search form {
+.Soial-Buttons {
     display: flex;
     flex-direction: row;
+}
+
+.Social-Icon {
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+    margin-right: 5px;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    width: 100%;
 }
 
-.Hero-Search input {
-    width: 100%;
-    border-style: solid;
-    border-width: 1px;
-    height: 32px;
-    border-top-left-radius: 4px;
-    border-bottom-left-radius: 4px;
+.Social-Icon i{
+    font-size: 23px;
+    color: #000000;
 }
 
-.Search-Submit {
-    padding-left: 30px;
-    padding-right: 30px;
-    background: #0059ff;
+.Hero-Right-Contents {
+    height: 100%;
+}
+
+.Hero-Left-Contents form {
+    background-color: #ffffff;
     border-style: solid;
     border-width: 1px;
-    border-color: #0059ff;
+    border-color: #adadad;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 50px;
+}
+
+.Hero-Left-Contents button {
+    border-style: none;
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+    background: #0059FF;
     color: #ffffff;
-    font-weight: 500;
-    height: 32px;
-    border-top-right-radius: 4px;
-    border-bottom-right-radius: 4px;
+}
+
+.Hero-Left-Contents input {
+    margin-left: 17px;
+    height: 35px;
+    border-style: none;
+    width: 85%;
+    padding-bottom: 3px;
     font-size: 17px;
 }
 
-.Home-Slider {
-    height: 100%;
-    width: 100%;
-    background: #ffff;
+.Hero-Left-Contents input::placeholder {
+    color: #b4b4b4;
+    font-style: italic;
 }
+
 
 .Our-Benefits {
+    position: relative;
+    z-index: 5;
     display: flex;
     justify-content: center;
-    margin-top: -80px;
+    background: linear-gradient(to top left, rgb(255, 255, 255), rgb(255, 255, 255), rgb(226, 226, 226));
+    box-shadow: -95px -10px 10px 0px #00000034;
 }
 
-.Our-Benefits img{
-    width: 80%;
+.Align-Benefits {
+    margin-top: -125px;
 }
 
 .Single-Benefit {
+    border-radius: 7px;
+    position: relative;
     background: #ffff;
-    box-shadow: 0px 15px 30px 0px #000000c5;
+    box-shadow: 2px 7px 12px 0px #000000af;
     display: flex;
     flex-direction: column;
+    height: 100%;
+}
+
+.Single-Benefit img {
+    position: absolute;
+    width: 50%;
+    bottom: 0;
+    right: 0;
+    opacity: 0.5;
+}
+
+.Benefit-Icon {
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.Single-Benefit h6 {
-    color: black;
+.Benefit-Icon i {
+    font-size: 20px;
+}
+
+.Meet {
+    background-color: rgba(148, 255, 175, 0.527);
+    color: #17c700;
+}
+
+.Teach {
+    background-color: rgba(252, 233, 171, 0.747);
+    color: #ffae00;
+}
+
+.Connect {
+    background-color: rgba(148, 230, 255, 0.555);
+    color: #0084ff;
+}
+
+.Pay {
+    background-color: rgba(255, 206, 206, 0.596);
+    color: #ff0000;
+}
+
+.Benefit-Title {
+    color: #000000;
+    text-shadow: 2px 2px 1px #0000004d;
+    margin-bottom: 0px;
+}
+
+.Learn-More {
+    color: #0059FF;
+    font-size: 15px;
+}
+
+.Learn-More i {
+    font-size: 22px;
 }
 
 .Our-Categories {
     display: flex;
     justify-content: center;
-    background: #ffff;
+    background: linear-gradient(to bottom, rgb(255, 255, 255), rgb(255, 255, 255));
 }
 
 .Single-Category {
-    box-shadow: 0px 10px 15px 0px #000000e1;
+    box-shadow: 0px 9px 12px 0px #000000b6;
 }
 
 .Single-Category img {
